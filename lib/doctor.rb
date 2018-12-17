@@ -17,10 +17,12 @@ class Doctor
   end
 
   def appointments
-    new_appointment.all.select do |appointment|
+    new_appointment.map do |appointment|
       appointment.name == self
     end
   end
+
+
 
 
 
