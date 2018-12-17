@@ -5,7 +5,7 @@ class Patient
     @name = name
     @doctor = doctor
     @date = date
+  end
 
 
-
-end 
+end
