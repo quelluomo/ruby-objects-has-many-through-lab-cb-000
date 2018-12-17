@@ -14,7 +14,8 @@ class Artist
 
   def songs
     Song.all.select.map do |artist|
-      artist.song ==self 
+      artist.song ==self
+    end
   end
 
   def self.all
