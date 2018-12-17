@@ -1,7 +1,7 @@
-class Genre 
-  attr_accessor :name 
-  
-  @@all = [] 
-  
+class Genre
+  attr_accessor :name
+
+  @@all = []
+
 
 end   
