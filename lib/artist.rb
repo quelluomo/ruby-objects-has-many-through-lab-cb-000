@@ -5,8 +5,6 @@ class Artist
 
   def initialize(name)
     @name = name
-    @song = song
-    @genre = genre
     @@all << self
   end
 
