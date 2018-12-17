@@ -20,6 +20,7 @@ class Doctor
     new_appointment.all.select do |appointment|
       appointment.name == self
     end
+  end
 
 
 
