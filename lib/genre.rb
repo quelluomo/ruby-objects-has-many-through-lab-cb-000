@@ -20,7 +20,7 @@ class Genre
 
   def artists
     song.map do |song|
-      song.artist == self
+      song.genre == self
     end
   end
 
